@@ -1,38 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b0e2e8;
+  color: rgb(153, 211, 139);
+}
+
 .App {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 90px;
+  background-color: #345e3b;
+  border-radius: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.survey button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.selected {
+  background-color: #ff6b6b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome-s-button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+   background-color: #1bc6a3;
+   border-radius: 10px;
+}
+.thank-you-screen button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thank-you-screen {
+  border-radius: 10px;
+}
+
+.previous{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+   background-color: #1bc6a3;
+   border-radius: 10px;
+}
+
+.survey button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+   border-radius: 10px;
+}
+
+.next{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+   background-color: #c65097;
+   border-radius: 10px;
 }
