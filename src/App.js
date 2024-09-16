@@ -36,7 +36,7 @@ function App() {
     };
 
 
-    
+    localStorage.setItem("Submitted answers", data.customerId);
     $.ajax({
       url: 'http://localhost:5000/api/survey',
       type: 'POST',
